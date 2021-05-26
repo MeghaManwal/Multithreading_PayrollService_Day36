@@ -1,0 +1,7 @@
+"Id","Name","phoneNumber","address","department","gender","basicPay","deductions","taxablePay","tax","netPay","start"
+1,"Mark","","","HR","M",60000.0,0.0,0.0,0.0,0.0,""
+2,"Jeff","","","Sales","M",40000.0,0.0,0.0,0.0,0.0,""
+3,"Bill","","","Marketing","M",60000.0,0.0,0.0,0.0,0.0,""
+4,"Tracy","","","IT","F",80000.0,0.0,0.0,0.0,0.0,""
+5,"Clare","","","HR","F",55000.0,0.0,0.0,0.0,0.0,""
+6,"Jermy","","","Finance","M",67000.0,0.0,0.0,0.0,0.0,""

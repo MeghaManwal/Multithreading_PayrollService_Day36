@@ -14,7 +14,7 @@ public class PayrollRepo {
 		
 		try {
 			DriverManager.registerDriver(new com.mysql.cj.jdbc.Driver ());
-			connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/payroll__service", "root", "Varsha@!4455");
+			connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/payroll__service", "root", "");
 			
 		try {
 			connection.setAutoCommit(false);

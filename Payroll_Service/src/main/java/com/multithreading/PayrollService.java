@@ -22,11 +22,13 @@ public class PayrollService {
 			Instant start = Instant.now();
 			
 			Arrays.stream(payrolldata).forEach(value -> {
-				try {
-					repo.insertMultipleRecord(value);
-				} catch (SQLException e) {
-					e.printStackTrace();
-				}
+				Runnable task = () ->{
+					try {
+						repo.insertMultipleRecord(value);
+					} catch (SQLException e) {
+						e.printStackTrace();
+					}
+				};
 			});
 			
 			Instant end = Instant.now();
